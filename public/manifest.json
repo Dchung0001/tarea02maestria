@@ -1,0 +1,15 @@
+{
+    "short_name":"Tareas",
+    "name":"Tarea02 Ejemplo de PWA",
+    "icons":[
+        {
+            "src":"icon-192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        }
+    ],
+    "start_url":".",
+    "display":"standalone",
+    "theme_color":"#2196f3",
+    "background_color":"#ffffff"
+}
