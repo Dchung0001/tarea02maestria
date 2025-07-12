@@ -1,0 +1,88 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Contenedor */
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+button {
+  background-color: #4a90e2;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+/* Inputs */
+input[type="number"],
+input[type="color"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Texto centrado */
+.center-text {
+  text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  color: #444;
+}
+
+/* Semáforo */
+.semaforo {
+  width: 80px;
+  height: 220px;
+  background-color: #222;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.semaforo-luz {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #555;
+  transition: background 0.3s;
+}
+
+.semaforo-luz.activa {
+  box-shadow: 0 0 10px 2px #fff;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
